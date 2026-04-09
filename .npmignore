@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pi local state (not needed in published package)
+.pi-lens/
+
+# Development files
+tests/
+*.test.ts
+*.spec.ts
+vitest.config.*
+
+# CI/Git
+.github/
+.gitignore
+.travis.yml
+.gitlab-ci.yml
+
+# Documentation that's already in README
+docs/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts (if any)
+dist/
+build/
+*.map
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
